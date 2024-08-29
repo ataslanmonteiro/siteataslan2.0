@@ -1,0 +1,12 @@
+.cabecalho {
+  display: flex;
+  background-color: blueviolet;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+.div {
+  background-color: aqua;
+  margin: 10px;
+  padding: 10px;
+}
