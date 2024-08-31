@@ -18,6 +18,10 @@ body {
   padding: 5px;
   gap: 20px;
 }
+.container :hover {
+  color: yellow;
+  background-color: blue;
+}
 .texto {
   margin: 10px;
 }
