@@ -18,12 +18,45 @@
       </div>
     </header>
     <main>
-      <div class="texto">
-        <h1>Seu evento em boas mãos</h1>
-        <h1>
-          Faça já seu orçamento clicando <a href="orçamento.html">aqui!</a>
-        </h1>
-      </div>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Orçamento</legend>
+            <p>Faça seu Orçamento aqui</p>
+            <div class="input-wrapper">
+              <label for="name">Nome Completo</label>
+              <input
+                type="name"
+                name="name"
+                id="name"
+                placeholder="Digite seu Nome Completo"
+                required
+              />
+            </div>
+            <div class="input-wrapper">
+              <label for="telephone">Telefone</label>
+              <input
+                type="telephone"
+                name="telephone"
+                id="telephone"
+                placeholder="Digite seu Telefone"
+                required
+              />
+            </div>
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+                required
+              />
+            </div>
+            <button type="submit">Solicitar Orçamento</button>
+          </fieldset>
+        </form>
+      </section>
     </main>
     <footer>
       Feito pelo
