@@ -5,9 +5,12 @@ body {
   margin: 0;
 }
 .container {
+  background-color: aqua;
   display: flex;
   margin: 5px;
   padding: 5px;
+  border-radius: 10px;
+  justify-content: center;
 }
 .container1 {
   flex: 1;
