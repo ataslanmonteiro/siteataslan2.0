@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
 .cabecalho {
   display: flex;
   background-color: blueviolet;
@@ -9,4 +13,6 @@
   background-color: aqua;
   margin: 10px;
   padding: 10px;
+}
+.footer {
 }
